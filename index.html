@@ -470,7 +470,7 @@
 					<label class="label">
 						<span class="label__name">Имя</span>
 						<input class="label__input" type="text" name="name" id="name" autofocus />
-						<svg class="icon-imput-decoration" width="18" height="18">
+						<svg class="label__icon" width="18" height="18">
 							<use href="./images/icon-img.svg#icon-person-black"></use>
 						</svg>
 					</label>
@@ -478,7 +478,7 @@
 					<label class="label">
 						<span class="label__name">Телефон</span>
 						<input class="label__input" type="tel" name="tel" id="tel" />
-						<svg class="icon-imput-decoration" width="18" height="18">
+						<svg class="label__icon" width="18" height="18">
 							<use href="./images/icon-img.svg#icon-phone-black"></use>
 						</svg>
 					</label>
@@ -486,15 +486,15 @@
 					<label class="label">
 						<span class="label__name">Почта</span>
 						<input class="label__input" type="email" name="email" id="email" />
-						<svg class="icon-imput-decoration" width="18" height="18">
+						<svg class="label__icon" width="18" height="18">
 							<use href="./images/icon-img.svg#icon-email-modal"></use>
 						</svg>
 					</label>
 
-					<label class="label textarea">
+					<label class="label">
 						<span class="label__name">Комментарий</span>
 						<textarea
-							class="textarea-decoration"
+							class="label__textarea"
 							name="comment"
 							id="comment"
 							rows="10"
@@ -502,18 +502,18 @@
 						></textarea>
 					</label>
 
-					<label class="form-decoration-policy">
-						<input class="checkbox" type="checkbox" name="policy" id="policy" />
-						<span class="icon-checkbox">
-							<svg class="icon-checkbox-check" width="14" height="13">
+					<label class="label label--decoration">
+						<input class="label__name label__name--is-hidden" type="checkbox" name="policy" id="policy" />
+						<span class="label__checkbox">
+							<svg class="label__icon label__icon--custom" width="14" height="13">
 								<use href="./images/icon-img.svg#icon-Vector2"></use>
 							</svg>
 						</span>
 						Соглашаюсь с рассылкой и принимаю&nbsp;
-						<a href="#">Условия договора</a>
+						<a class="label__link" href="#">Условия договора</a>
 					</label>
 
-					<button class="form-btn" type="submit">Отправить</button>
+					<button class="button form__button" type="submit">Отправить</button>
 				</form>
 			</div>
 		</div>
