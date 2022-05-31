@@ -14,14 +14,14 @@
 .team__name {
 	color: getColor("title-text-color");
 	font-weight: 500;
-	font-size: 16px;
+	font-size: $font-medium;
 	line-height: 1.18;
 	text-align: center;
 	margin-bottom: 10px;
 }
 
 .team__text {
-	font-size: 16px;
+	font-size: $font-medium;
 	line-height: 1.19;
 	text-align: center;
 	margin-bottom: 16px;

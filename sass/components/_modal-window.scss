@@ -86,7 +86,7 @@
 	flex-direction: column;
 	margin-bottom: 10px;
 	font-weight: 400;
-	font-size: 12px;
+	font-size: $font-small;
 	line-height: 1.16;
 	letter-spacing: 0.01em;
 
@@ -126,7 +126,7 @@
 }
 
 .label__textarea {
-	font-size: 12px;
+	font-size: $font-small;
 	line-height: 1.16;
 	letter-spacing: 0.01em;
 	height: 120px;

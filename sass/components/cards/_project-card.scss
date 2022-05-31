@@ -34,7 +34,7 @@
 	height: 100%;
 	width: 100%;
 
-	font-size: 18px;
+	font-size: $font-large;
 	line-height: 1.5;
 	letter-spacing: 0.03em;
 
@@ -56,7 +56,7 @@
 
 .project-card__name {
 	color: getColor("title-text-color");
-	font-size: 18px;
+	font-size: $font-large;
 	line-height: 2;
 	letter-spacing: 0.06em;
 	margin-bottom: 4px;
@@ -64,7 +64,7 @@
 
 .project-card__text {
 	color: getColor("primary-text-color");
-	font-size: 16px;
+	font-size: $font-medium;
 	line-height: 1.88;
 }
 
