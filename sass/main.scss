@@ -1,16 +1,25 @@
-// base and utilits
+//utilits
 
 @import "./utilits/variables";
-@import "./utilits/base";
+
+// base
+
+@import "./base/base";
 
 // components
+
 @import "./components/logo";
 @import "./components/button";
 @import "./components/cards/modul-cards";
 @import "./components/social_links";
 @import "./components/modal-window";
+
 // layout
+
 @import "./layout/page-header";
 @import "./layout/page-footer";
+
 // pages
+
 @import "./pages/main-index";
+@import "./pages/main-portfolio";
