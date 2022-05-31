@@ -306,15 +306,15 @@ ul {
 	display: flex;
 }
 
-.advantage__item {
+.advantage-card {
 	max-width: 270px;
 }
 
-.advantage__item:not(:last-child) {
+.advantage-card:not(:last-child) {
 	margin-right: 30px;
 }
 
-.advantage__img {
+.advantage-card__img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -325,7 +325,7 @@ ul {
 	border-radius: 4px;
 }
 
-.advantage__name {
+.advantage-card__name {
 	margin-bottom: 10px;
 
 	color: var(--title-text-color);
@@ -337,23 +337,15 @@ ul {
 	display: flex;
 }
 
-.service__item {
+.service-card {
 	position: relative;
+}
 
+.service-card:not(:last-child) {
 	margin-right: 30px;
 }
 
-.service__item:last-child {
-	margin-right: 0;
-}
-
-.service__image {
-	display: block;
-	max-width: 100%;
-	height: auto;
-}
-
-.service__name {
+.service-card__name {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -365,6 +357,7 @@ ul {
 	text-align: center;
 	color: var(--primary-bcg-color);
 	background-color: rgba(47, 48, 58, 0.8);
+	display: inline-block;
 }
 
 /* Наша Команда */
